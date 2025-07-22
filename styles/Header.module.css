@@ -1,0 +1,45 @@
+<<<<<<< HEAD
+/* components/Header.module.css */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 5%;
+  background-color: #111;
+  gap: 30px;
+  position: relative;
+  z-index: 10;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: lighter;
+  font-family: 'Aptos Light', 'Segoe UI Light', sans-serif;
+  color: #fff;
+}
+
+body.dark .header {
+  background-color: #111;
+}
+
+body.dark .title {
+  color: #f0f0f0;
+=======
+.headerWrapper {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 10px 10%; /* reduced vertical padding */
+  font-family: 'Bahnschrift Light', sans-serif;
+}
+
+.headerMain {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px; /* reduced spacing */
+}
+
+.title {
+  font-size: 60px; /* reduced font size from 60px */
+  font-weight: 300;
+  margin: 0;
+>>>>>>> dc28f1abb29b615d210c0adac97795d3ccef9f63
+}

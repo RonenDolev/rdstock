@@ -1,0 +1,25 @@
+/* components/Header.module.css */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 5%;
+  background-color: #111;
+  gap: 30px;
+  position: relative;
+  z-index: 10;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: lighter;
+  font-family: 'Aptos Light', 'Segoe UI Light', sans-serif;
+  color: #fff;
+}
+
+body.dark .header {
+  background-color: #111;
+}
+
+body.dark .title {
+  color: #f0f0f0;
+}

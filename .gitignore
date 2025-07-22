@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+# .gitignore for Next.js + Node
+node_modules
+.next
+.env.local
+.DS_Store
+npm-debug.log
+yarn-error.log
+dist
+out
+coverage
+=======
+node_modules/ 
+.next/ 
+.env.local 
+>>>>>>> dc28f1abb29b615d210c0adac97795d3ccef9f63
